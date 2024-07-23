@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="images/home1.png" />
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("Xfo0bL8yXULQnpIxJ");
+    })();
+  </script>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Include jQuery Toast Plugin -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js"></script>
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">ATTYA</a>
+    <i class=" bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Mohamed Attya</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p> </p>
+      <div class="social-media">
+        <a href="https://www.facebook.com/mido.attia.319/"><i class='bx bxl-facebook'></i></a>
+        <a href="https://github.com/ABNattya"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-attya-bekhit-998438235/"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="mohamed attya bekhit .pdf" download class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/home1.png" alt="">
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/profile-pic.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span> </h2>
+      <h3>Backend Developer</h3>
+      <p>
+        I'm a backend developer with a solid background in computer science and extensive hands-on experience in
+        building software applications.
+        I graduated from Ain Shams Cairo with a degree in Computer Science,<br>
+        I have experience with a wide range of technologies..,
+      <p class="more-content"  id="more">
+        including ASP.NET Core, Spring Boot, Java, C++, C#, SQL, and Python, among others.
+        My skills also include effective communication, teamwork, and problem-solving.
+        I bring both technical expertise and strong interpersonal skills to any project I work on, making me a versatile
+        and collaborative team member.
+        If you're seeking a backend developer who combines technical know-how with leadership and teaching experience,
+        I'm the right fit.
+      </p>
+
+      </p>
+      <button class="btn" id="btn-readMore">Read More</button>
+
+    </div>
+  </section>
+
+  <!-- services section design -->
+
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services-container">
+
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p>
+            I offer comprehensive software development services,
+            specializing in web applications. With expertise in technologies like HTML, CSS, and JavaScript, 
+            I build responsive front-end solutions using frameworks like Bootstrap for a polished and mobile-friendly design.
+            On the backend,
+            I work with .NET and ASP.NET Core to develop robust and scalable services.
+            I use databases like SQL Server and MongoDB, ensuring data is stored and managed efficiently. 
+            My experience with Entity Framework helps streamline database interactions and create RESTful APIs...,
+        <p class="more-content" id="moreS1">
+          I stay updated with the latest trends and tools in web development, 
+          allowing me to offer cutting-edge solutions. 
+          Whether you're looking for a complete full-stack web application,
+           API integration, or database management,
+            I can help bring your project to life.
+             My focus is on creating high-quality, user-friendly applications that meet your business needs.
+        </p>
+  
+        </p>
+        <button class="btn" id="btn-s1">Show more</button>
+
+      </div>
+
+
+      <div class="services-box">
+        <i class='bx bxs-paint'></i>
+        <h3>Desktop applications</h3>
+        <p>
+
+          I build desktop applications that are robust and easy to use.
+           My experience with .NET and Windows Presentation Foundation (WPF) helps me create software with intuitive interfaces and solid functionality. 
+           I use design patterns like MVVM to make sure my applications are maintainable and scalable.
+          I also integrate databases like SQL Server and SQLite for data storage and can create custom APIs to connect desktop apps to other systems or services.
+           My focus is on providing a smooth user experience, with responsive UI elements,
+            efficient handling of user input, and compatibility with different hardware setups.
+        <p class="more-content" id="moreS2">
+          In short, I aim to deliver software that meets your needs and is enjoyable to use.
+           I stay current with the latest development practices to ensure the applications I build are secure, efficient, and easy to maintain.
+            Whether you need a standalone desktop app, integration with existing systems, or custom software, I can help turn your ideas into reality.
+        </p>
+        </p>
+        <button class="btn" id="btn-s2">Show more</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/s1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>portfolio Design</h4>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/s2.png" alt="">
+        <div class="portfolio-layer">
+          <h4>E-commerce Website</h4>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+
+      <div class="portfolio-box" id="last">
+        <img src="images/s3.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Time Management System Desktop application</h4>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact section design -->
+
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me !</span></h2>
+
+    <form action="#" id="emailForm">
+      <div class="input-box">
+        <input id="name" type="text" placeholder="Full Name" required autocomplete="off">
+        <!-- <div class="error-txt">Full Name can't be blank</div> -->
+
+        <input id="email" type="email" placeholder="Email Address" required autocomplete="off">
+        <!-- <div class="error-txt">Email can't be blank</div> -->
+      </div>
+      <div class="input-box">
+        <input id="phone" type="number" placeholder="Mobile Number" required autocomplete="off">
+        <!-- <div class="error-txt">Mobile Number can't be blank</div> -->
+
+        <input id="subject" type="text" placeholder="Email Subject" required autocomplete="off">
+        <!-- <div class="error-txt">Full Name can't be blank</div> -->
+      </div>
+
+      <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required
+        autocomplete="off"></textarea>
+      <button type="button" class="btn" onclick="sendMail()"> Send </button>
+
+    </form>
+  </section>
+
+  <!-- footer design -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Attya | All Rights Reserved .</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- smtp -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!-- sweet alert 2 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- custom js -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
